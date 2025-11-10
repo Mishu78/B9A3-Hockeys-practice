@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+<!--font style-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<style>
+    
+.manrope-normal {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+</style>
+</head>
+<body class="manrope-normal ">
+    <Header>
+        <nav class="">
+            <div class="navbar bg-base-100 shadow-sm">
+  <div class="navbar-start">
+    <div class="dropdown">
+      <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
+      </div>
+      <ul
+        tabindex="-1"
+        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+        <li><a href=""><span class="text-red-500">Home</span></a></li>
+      <li><a href="">About</a></li>
+      <li><a href="">Pages</a></li>
+      <li><a href="">Blog</a></li>
+      <li><a href="">Contact</a></li>
+      </ul>
+    </div>
+    <a class="btn btn-ghost text-xl">Hockey's</a>
+  </div>
+  <div class="navbar-center hidden lg:flex">
+    <ul class="menu menu-horizontal px-1">
+      <li><span class="text-red-500">Home</span></li>
+      <li><a href="">About</a></li>
+      <li><a href="">Pages</a></li>
+      <li><a href="">Blog</a></li>
+      <li><a href="">Contact</a></li>
+    </ul>
+  </div>
+  <div class="navbar-end">
+    <i class="fa-brands fa-searchengin"></i>
+    <a class="btn btn-primary bg-[#FF4240] text-white rounded-lg border-none">Get Ticket</a>
+  </div>
+</div>
+        </nav>
+        <div class="lg:relative ">
+        <div class="justify-self-center mx-4 lg:py-14 lg:relative">
+            <div class="carousel lg:w-6xl">
+  <div id="slide1" class="carousel-item relative w-full">
+    <img
+      src="/Images/1.png"
+      class="w-full" />
+    <div class="absolute bottom-5 left-5 flex gap-2 justify-start">
+      <a href="#slide4" class="btn btn-circle">❮</a>
+      <a href="#slide2" class="btn btn-circle">❯</a>
+    </div>
+  </div>
+  <div id="slide2" class="carousel-item relative w-full">
+    <img
+      src="https://img.daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.webp"
+      class="w-full" />
+    <div class="absolute bottom-5 left-5 flex gap-2 justify-start">
+      <a href="#slide1" class="btn btn-circle">❮</a>
+      <a href="#slide3" class="btn btn-circle">❯</a>
+    </div>
+  </div>
+  <div id="slide3" class="carousel-item relative w-full">
+    <img
+      src="https://img.daisyui.com/images/stock/photo-1414694762283-acccc27bca85.webp"
+      class="w-full" />
+    <div class="absolute bottom-5 left-5 flex gap-2 justify-start">
+      <a href="#slide2" class="btn btn-circle">❮</a>
+      <a href="#slide4" class="btn btn-circle">❯</a>
+    </div>
+  </div>
+  <div id="slide4" class="carousel-item relative w-full">
+    <img
+      src="/Images/1.png"
+      class="w-full" />
+    <div class="absolute bottom-5 left-5 flex gap-2 justify-start">
+      <a href="#slide3" class="btn btn-circle">❮</a>
+      <a href="#slide1" class="btn btn-circle">❯</a>
+    </div>
+  </div>
+</div>
+        </div>
+        <div class="bg-black mx-3 px-8 py-8 lg:absolute  text-center lg:left-1/2 lg:bottom-1/6 rounded-lg">
+            <h3 class="text-2xl font-extrabold text-white">Meet all the heroes from the field</h3>
+            <p class="text-[#ffffff]">Dit amet consectetur. Condimentum dignissim adipiscing<br>aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+        </div>
+        </div>
+    </Header>
+    <main>
+        <Section>
+            <div class="text-center"> 
+                <h3 class="font-extrabold text-2xl">Professional Hockeys Club</h3>
+            <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat<br> dolor. Purus urna in sit nullam proin. </p>
+            </div>
+            
+            <div class=" justify-self-center w-7xl space-y-5 lg:space-y-2 grid grid-cols-1 lg:grid-cols-4 my-8 border border-dashed border-[#13131833] lg:p-12">
+            <div class=" items-center text-center space-y-4 pr-2">
+<div class="radial-progress text-red-500" style="--value:87;" aria-valuenow="87" role="progressbar">87%
+</div>
+    <h3>Prayer Facility</h3>
+ <p>Lorem ipsum dolor sit amet consectetur<br>dipisicing elit.</p>
+</div>
+ <div class="items-center text-center space-y-4 pr-2">
+<div class="radial-progress text-[#49D293]" style="--value:95;" aria-valuenow="95" role="progressbar">95%</div>
+
+    <h3>Prayer Facility</h3>
+ <p>Lorem ipsum dolor sit amet consectetur<br>dipisicing elit.</p>
+
+</div>
+<div class="items-center text-center space-y-4 pr-2">
+<div class="radial-progress text-[#FFB546]" style="--value:90;" aria-valuenow="90" role="progressbar">90%</div>
+    <h3>Prayer Facility</h3>
+ <p>Lorem ipsum dolor sit amet consectetur<br>dipisicing elit.</p>
+</div>
+<div class="items-center text-center space-y-4 pr-2">
+<div class="radial-progress text-[#4C8DF1]" style="--value:80;" aria-valuenow="80" role="progressbar">80%</div>
+
+    <h3>Prayer Facility</h3>
+ <p>Lorem ipsum dolor sit amet consectetur<br>dipisicing elit.</p>
+
+</div>
+            </div>
+        </Section>
+
+
+        <section>
+            <div class="text-center">
+            <h3 class="font-extrabold text-2xl mb-6">Program Sections</h3>
+            <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat<br> dolor. Purus urna in sit nullam proin. </p> </div>
+            <div class="grid  grid-cols-1 lg:grid-cols-2  justify-self-center gap-1 mt-20">
+
+                <div class="card bg-base-100 image-full w-96 shadow-sm">
+  <figure> <img src="/Images/2.png"alt="Shoes" /></figure>
+  <div class="card-body">
+    <h2 class="card-title">Junior Program</h2>
+    <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+    <div class="card-actions justify-start">
+      <button class="btn btn-primary">Register Now!</button>
+    </div>
+  </div>
+</div>
+
+<div class="card bg-base-100 image-full w-96 shadow-sm">
+  <figure>
+    <img
+      src="/Images/3.png"
+      alt="Shoes" />
+  </figure>
+  <div class="card-body">
+    <h2 class="card-title">Teenager Program</h2>
+    <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+    <div class="card-actions justify-start">
+      <button class="btn btn-primary">Register Now!</button>
+    </div>
+  </div>
+</div>
+            </div>
+            <div class="card bg-base-100 image-full shadow-sm w-96 lg:w-3xl my-1 justify-self-center lg:items-end ">
+  <figure>
+    <img
+      src="/Images/4.png"
+      alt="Shoes" />
+  </figure>
+  <div class="card-body">
+    <h2 class="card-title">Professional Program</h2>
+    <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit <br>
+enim sagittis turpis in magna. Id et sed euismod natoque amet nunc<br> morbi nulla. Tortor congue sed et in.</p>
+    <div class="card-actions justify-start">
+      <button class="btn btn-primary">Register Now!</button>
+    </div>
+  </div>
+</div>
+        </section>
+
+        <section class="mt-24">
+            <div class="text-center">
+                <h3 class="font-extrabold text-2xl mb-6">Our New Products</h3>
+                <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam<br> turpis placerat dolor. Purus urna in sit nullam proin. </p>
+            </div>
+
+            <div class="grid grid-cols-2  mt-5 gap-y-5 ">
+
+                <div class="card card-side bg-base-100 shadow-sm justify-self-center px-20 py-6">
+  <figure>
+    <img class="max-w-2xl"
+      src="/Images/5.png"
+      alt="Movie" />
+  </figure>
+  <div class="card-body">
+    <div class="flex items-center gap-3">
+        <i class="fa-solid fa-star text-yellow-400"></i>
+    <h3>5.00</h3>
+    <i class="fa-solid fa-eye"></i>
+    <h3>20</h3>
+    <i class="fa-solid fa-heart"></i>
+    <h3>200</h3>
+    </div>
+    <div class="space-y-3">
+        <h2 class="font-extrabold text-2xl">World Cup Flags Football</h2>
+        <p class="text-slate-500">Dolor sit amet consectetur. Ut urna diam <br>quis sagittis. </p>
+    </div>
+    <div class="card-actions">
+     <h2 class="text-red-600">Price-$22.00</h2>
+     <i class="fa-solid fa-cart-shopping"></i>
+     <h2>Delivery Fee:Free</h2>
+    </div>
+  </div>
+</div>
+
+ <div class="card card-side bg-base-100 shadow-sm justify-self-center px-20 py-6">
+  <figure>
+    <img
+      src="/Images/6.png"
+      alt="Movie" />
+  </figure>
+  <div class="card-body">
+    <div class="flex items-center gap-3">
+        <i class="fa-solid fa-star text-yellow-400"></i>
+    <h3>5.00</h3>
+    <i class="fa-solid fa-eye"></i>
+    <h3>20</h3>
+    <i class="fa-solid fa-heart"></i>
+    <h3>200</h3>
+    </div>
+    <div class="space-y-3">
+        <h2 class="font-extrabold text-2xl">World Cup Flags Football</h2>
+        <p class="text-slate-500">Dolor sit amet consectetur. Ut urna diam <br>quis sagittis. </p>
+    </div>
+    <div class="card-actions">
+     <h2 class="text-red-600">Price-$22.00</h2>
+     <i class="fa-solid fa-cart-shopping"></i>
+     <h2>Delivery Fee:Free</h2>
+    </div>
+  </div>
+</div>
+
+
+ <div class="card card-side bg-base-100 shadow-sm justify-self-center px-20 py-6">
+  <figure>
+    <img
+      src="/Images/7.png"
+      alt="Movie" />
+  </figure>
+ <div class="card-body">
+    <div class="flex items-center gap-3">
+        <i class="fa-solid fa-star text-yellow-400"></i>
+    <h3>5.00</h3>
+    <i class="fa-solid fa-eye"></i>
+    <h3>20</h3>
+    <i class="fa-solid fa-heart"></i>
+    <h3>200</h3>
+    </div>
+    <div class="space-y-3">
+        <h2 class="font-extrabold text-2xl">World Cup Flags Football</h2>
+        <p class="text-slate-500">Dolor sit amet consectetur. Ut urna diam <br>quis sagittis. </p>
+    </div>
+    <div class="card-actions">
+     <h2 class="text-red-600">Price-$22.00</h2>
+     <i class="fa-solid fa-cart-shopping"></i>
+     <h2>Delivery Fee:Free</h2>
+    </div>
+  </div>
+</div>
+
+
+ <div class="card card-side bg-base-100 shadow-sm justify-self-center px-20 py-6">
+  <figure>
+    <img
+      src="/Images/8.png"
+      alt="Movie" />
+  </figure>
+  <div class="card-body">
+    <div class="flex items-center gap-3">
+        <i class="fa-solid fa-star text-yellow-400"></i>
+    <h3>5.00</h3>
+    <i class="fa-solid fa-eye"></i>
+    <h3>20</h3>
+    <i class="fa-solid fa-heart"></i>
+    <h3>200</h3>
+    </div>
+    <div class="space-y-3">
+        <h2 class="font-extrabold text-2xl">World Cup Flags Football</h2>
+        <p class="text-slate-500">Dolor sit amet consectetur. Ut urna diam <br>quis sagittis. </p>
+    </div>
+    <div class="card-actions">
+     <h2 class="text-red-600">Price-$22.00</h2>
+     <i class="fa-solid fa-cart-shopping"></i>
+     <h2>Delivery Fee:Free</h2>
+    </div>
+  </div>
+</div>
+
+
+ <div class="card card-side bg-base-100 shadow-sm justify-self-center px-20 py-6">
+  <figure>
+    <img
+      src="/Images/9.png"
+      alt="Movie" />
+  </figure>
+  <div class="card-body">
+    <div class="flex items-center gap-3">
+        <i class="fa-solid fa-star text-yellow-400"></i>
+    <h3>5.00</h3>
+    <i class="fa-solid fa-eye"></i>
+    <h3>20</h3>
+    <i class="fa-solid fa-heart"></i>
+    <h3>200</h3>
+    </div>
+    <div class="space-y-3">
+        <h2 class="font-extrabold text-2xl">World Cup Flags Football</h2>
+        <p class="text-slate-500">Dolor sit amet consectetur. Ut urna diam <br>quis sagittis. </p>
+    </div>
+    <div class="card-actions">
+     <h2 class="text-red-600">Price-$22.00</h2>
+     <i class="fa-solid fa-cart-shopping"></i>
+     <h2>Delivery Fee:Free</h2>
+    </div>
+  </div>
+</div>
+
+
+ <div class="card card-side bg-base-100 shadow-sm justify-self-center px-20 py-6">
+  <figure>
+    <img
+      src="/Images/10.png"
+      alt="Movie" />
+  </figure>
+  <div class="card-body">
+    <div class="flex items-center gap-3">
+        <i class="fa-solid fa-star text-yellow-400"></i>
+    <h3>5.00</h3>
+    <i class="fa-solid fa-eye"></i>
+    <h3>20</h3>
+    <i class="fa-solid fa-heart"></i>
+    <h3>200</h3>
+    </div>
+    <div class="space-y-3">
+        <h2 class="font-extrabold text-2xl">World Cup Flags Football</h2>
+        <p class="text-slate-500">Dolor sit amet consectetur. Ut urna diam <br>quis sagittis. </p>
+    </div>
+    <div class="card-actions">
+     <h2 class="text-red-600">Price-$22.00</h2>
+     <i class="fa-solid fa-cart-shopping"></i>
+     <h2>Delivery Fee:Free</h2>
+    </div>
+  </div>
+</div>
+            </div>
+        </section>
+
+
+                <section class="mt-24">
+            <div class="text-center">
+                <h3 class="font-extrabold text-2xl mb-6">Clients Question</h3>
+                <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam<br> turpis placerat dolor. Purus urna in sit nullam proin. </p>
+            </div>
+
+            <div class="flex justify-self-center mt-20 gap-10">
+
+                <div class="">
+                    <img class="w-sm "src="/Images/11.png" alt="">
+                </div>
+                <div class="">
+
+                    <div class="collapse collapse-plus bg-base-100 border border-base-300">
+  <input type="radio" name="my-accordion-3" checked="checked" />
+  <div class="collapse-title font-semibold">Our Equipment</div>
+  <div class="collapse-content text-sm">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna.</div>
+</div>
+<div class="collapse collapse-plus bg-base-100 border border-base-300">
+  <input type="radio" name="my-accordion-3" />
+  <div class="collapse-title font-semibold">Hockey Training</div>
+  <div class="collapse-content text-sm">Click on "Forgot Password" on the login page and follow the instructions sent to your email.</div>
+</div>
+<div class="collapse collapse-plus bg-base-100 border border-base-300">
+  <input type="radio" name="my-accordion-3" />
+  <div class="collapse-title font-semibold">Private Lessons</div>
+  <div class="collapse-content text-sm">Go to "My Account" settings and select "Edit Profile" to make changes.</div>
+</div>
+
+<div class="collapse collapse-plus bg-base-100 border border-base-300">
+  <input type="radio" name="my-accordion-3" />
+  <div class="collapse-title font-semibold">Sky Touring</div>
+  <div class="collapse-content text-sm">Go to "My Account" settings and select "Edit Profile" to make changes.</div>
+</div>
+
+<div class="collapse collapse-plus bg-base-100 border border-base-300">
+  <input type="radio" name="my-accordion-3" />
+  <div class="collapse-title font-semibold">Booking</div>
+  <div class="collapse-content text-sm">Go to "My Account" settings and select "Edit Profile" to make changes.</div>
+</div>
+
+<div class="collapse collapse-plus bg-base-100 border border-base-300">
+  <input type="radio" name="my-accordion-3" />
+  <div class="collapse-title font-semibold">Pricing</div>
+  <div class="collapse-content text-sm">Go to "My Account" settings and select "Edit Profile" to make changes.</div>
+</div>
+                </div>
+            </div>
+
+             <section class="mt-24">
+            <div class="text-center">
+                <h3 class="font-extrabold text-2xl mb-6">Get In Touch</h3>
+                <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam<br> turpis placerat dolor. Purus urna in sit nullam proin. </p>
+            </div>
+    </main>
+    <footer></footer>
+</body>
+</html>
